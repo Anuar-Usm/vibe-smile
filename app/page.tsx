@@ -35,7 +35,7 @@ export default function DentistryPage() {
       {/* Карта (с исправленной ссылкой на виджет) */}
       <section className="h-[450px] w-full bg-slate-200 grayscale hover:grayscale-0 transition-all duration-500 border-t border-slate-100">
         <iframe 
-          src="https://yandex.ru/map-widget/v1/?ll=37.617635%2C55.755814&z=14" 
+          src="https://yandex.ru/map-widget/v1/?ll=32.0322,36.5425&z=14&pt=32.0322,36.5425" 
           width="100%" 
           height="100%" 
           frameBorder="0" 
