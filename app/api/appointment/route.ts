@@ -2,8 +2,8 @@ import { NextResponse } from 'next/server';
 
 export async function POST(req: Request) {
   const { name, phone } = await req.json();
-  const token = "6353694821:AAFXxjfcXlB_9boAwVnHd7d-0V-0n8FIeWM";
-  const chat_id = "1672507868";
+  const token = process.env.TELEGRAM_BOT_TOKEN;
+  const chat_id = process.env.TELEGRAM_CHAT_ID;
   
   const text = `🦷 <b>Новая заявка!</b>\n👤 Имя: ${name}\n📞 Телефон: ${phone}`;
 
